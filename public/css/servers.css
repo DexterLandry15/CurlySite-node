@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #493c4d; 
+}
+ 
+.bg-main {
+    background-color: rgb(56, 42, 59) !important;
+}
+
+.active-link {
+    color: #fff;
+    background-color:  #4b3153;
+  }

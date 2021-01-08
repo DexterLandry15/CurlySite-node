@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #493c4d; 
+}
+ 
+.bg-main {
+    background-color: rgb(56, 42, 59) !important;
+}
+
+.authors {
+    background: url('../img/bg/bgtemp.jpg');
+    height: 587px;
+    background-color: #493c4d !important;
+    display: flex;
+    justify-content: center;
+}
+
+.authors_item{
+    margin: 0 40px;
+    padding-top: 60px;
+}
+
+.authors_item .authors_icon {
+    display: flex;
+    margin: 16px auto;
+    width: 177px;
+    height: 177px;
+    border: 3px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 65px;
+    animation: animatefade 0.8s;
+}
+
+.authors_item .authors_owner_icon {
+    display: flex;
+    align-items: center;
+    margin: 27px auto;
+    width: 197px;
+    height: 197px;
+    border: 3px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 65px;
+    animation: animatefade 1.5s;
+}
+
+.authors_item .authors_name {
+    font-family: 'Podkova', sans-serif;
+    margin: 0 auto;
+    color: #cecece;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    animation: animatetop 0.8s; 
+}
+
+.authors_item .authors_owner_name {
+    font-family: 'Podkova', sans-serif;
+    margin: 0 20px;
+    color: #cecece;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    animation: animatetop 1s;
+}
+
+.authors_item .authors_descr {
+    font-family: 'Podkova', sans-serif;
+    margin: 0 auto;
+    color: #b1b1b1;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    animation: animatetop 1.2s;
+}
+
+ .authors_item .authors_owner_descr {
+    font-family: 'Podkova', sans-serif;
+    margin: 0;
+    color: #b1b1b1;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    animation: animatetop 1.6s;
+}
+
+.authors_item .authors_links {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+  height: 35px;
+}
+
+.authors_item .authors_links .link{
+  margin: 0 7px 0 7px;
+  justify-content: center;
+  flex-direction: row;
+  width: 30px;
+  animation: animatetop 2s;
+
+}
+
+.active-link {
+  color: #fff;
+  background-color:  #4b3153;
+}
+
+@keyframes animatetop {
+    from {
+      top: -150px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  @keyframes animatefade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
