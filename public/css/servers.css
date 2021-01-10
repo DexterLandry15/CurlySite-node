@@ -13,3 +13,10 @@ body {
     color: #fff;
     background-color:  #4b3153;
   }
+
+.test {
+    font-family: 'Podkova', sans-serif;
+    font-weight: 700;
+    color: #cecece;
+    font-size: 30px;
+}
