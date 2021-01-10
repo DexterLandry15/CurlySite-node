@@ -20,8 +20,6 @@ Gamedig.query({
     console.log("Server is offline");
 });
 
-
-
 const { token } = require('../config.json')
 const { VK } = require('vk-io');
 const vk = new VK({
@@ -35,9 +33,6 @@ async function vkapi(id) {
     });
     return photo_max;
 }
-
-
-
 
 
 router.get('/', async (req, res) =>{
