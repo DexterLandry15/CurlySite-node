@@ -1,5 +1,18 @@
-const { Router } = require('express')
-const router = Router()
+const { Router } = require('express');
+const router = Router();
+
+const { token } = require('../config.json')
+const { VK } = require('vk-io');
+const vk = new VK({
+	token: token
+});
+async function vkapi(id) {
+    const [{ photo_max }] = await vk.api.users.get({
+        user_id: id,
+        fields: 'photo_max'
+    });
+    return photo_max;
+}
 
 const Gamedig = require('gamedig');
 
@@ -19,21 +32,6 @@ Gamedig.query({
 }).catch((error) => {
     console.log("Server is offline");
 });
-
-const { token } = require('../config.json')
-const { VK } = require('vk-io');
-const vk = new VK({
-	token: token
-});
-
-async function vkapi(id) {
-    const [{ photo_max }] = await vk.api.users.get({
-        user_id: id,
-        fields: 'photo_max'
-    });
-    return photo_max;
-}
-
 
 router.get('/', async (req, res) =>{
 
