@@ -1,0 +1,65 @@
+
+.skins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    font-family: Podkova;
+    margin: 40px auto;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #322255;
+    background-clip: border-box;
+    border: 3px solid #aeaeae;
+    border-radius: 1rem;
+}
+
+.card-img-top {
+    border-radius: 1rem;
+     max-height: 158px
+}
+
+.card-title {
+    color: #dfdfdf;
+}
+
+.text-muted {
+    color: #b9bbbd!important;
+}
+
+.card-text {
+    color: azure;
+}
+
+.card-link {
+    color: #cecece;    
+}
+
+.card-link:hover {
+    color: #ffffff;
+}
+
+
+.card .list-group .list-group-item{
+    background-color: rgba(0,0,0,0);
+    color: azure;
+    border-color: #aeaeae;
+    border-width: 0.5
+
+}
+
+.osulink {
+    color: #b9bbbd!important;
+}
+
+.osulink:hover {
+    color: #dddfe0!important;
+    text-decoration: none;
+}

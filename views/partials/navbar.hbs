@@ -1,6 +1,6 @@
- <nav class="navbar navbar-expand-lg navbar-dark bg-main">
-    <a class="navbar-brand" href="/">
-      <img src="./img/icons/logo.png" width="42" height="30" alt="" loading="lazy">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <a class="navbar-brand" href="#">
+      <img src="/img/icons/logo.png" width="42" height="30" alt="" loading="lazy">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -8,32 +8,30 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Projects
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            {{#if isServers}}
-            <a class="dropdown-item active-link" href="/servers">Servers</a>
-            {{else}}
-            <a class="dropdown-item" href="/servers">Servers</a>
-            {{/if}}
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://discordapp.com/oauth2/authorize?client_id=682329075976765479&permissions=8&scope=bot">CurlyBot [DISCORD]</a>
-          </div>
-          <li class="nav-item">
-            <a class="nav-link" href="http://forum.curly.gq/index.php">Forum</a>
-          </li>
-        </li>
+        {{#if isindex}}
+        <a class="nav-link active" href="/">Home</a>
+        {{else}}
+        <a class="nav-link" href="/">Home</a>
+        {{/if}}
+        {{#if isServers}}
+        <a class="nav-link active" href="/servers">Servers</a>
+        {{else}}
+        <a class="nav-link" href="/servers">Servers</a>
+        {{/if}}
+        {{#if isSkins}}
+        <a class="nav-link active" href="/skins">Osu!Skins</a>
+        {{else}}
+        <a class="nav-link" href="/skins">Osu!Skins</a>
+        {{/if}}
       </ul>   
         <a class="nav-link" href="https://vk.com/curlydev">
-          <img src="./img/icons/header/VK.svg" alt="vk" width="25" height="25">
+          <img src="/img/icons/header/VK.svg" alt="vk" width="25" height="25">
         </a>
         <a class="nav-link" href="https://discord.com/invite/tr67xfF">
-          <img src="./img/icons/header/Discord.svg" alt="discord" width="25" height="25">
+          <img src="/img/icons/header/Discord.svg" alt="discord" width="25" height="25">
         </a>     
-          <a class="nav-link" href="https://github.com/DexterLandry15/CurlyDev-frontend">
+{{!--           <a class="nav-link" href="https://github.com/DexterLandry15/CurlyDev-frontend">
             <img src="./img/icons/header/Github.svg" alt="github" width="25" height="25">
-        </a>  
+        </a>   --}}
     </div>
   </nav>
