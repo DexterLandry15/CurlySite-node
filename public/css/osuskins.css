@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url('/img/skins/1.png');
+    height: 450px;
 }
 
 .card {

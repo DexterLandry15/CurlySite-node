@@ -1,6 +1,5 @@
 .authors {
-/*     background: url('../img/bg/bgtemp.jpg'); */
-    height: 587px;
+    background: url('../img/bg/1.png');
     display: flex;
     justify-content: center;
 }

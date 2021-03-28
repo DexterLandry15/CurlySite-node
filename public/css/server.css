@@ -1,3 +1,10 @@
+.servers {
+    display: flex;
+    align-items:center;
+    background: url('../img/server/2.png');
+    height: 450px;
+}
+
 .servers span {
     font-family: Podkova;
     color: #aeaeae;
