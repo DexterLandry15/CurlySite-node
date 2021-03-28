@@ -3,18 +3,9 @@
 body {
     margin: 0;
     background-color: #44336d;
-
-
     height:964px;
 }
  
 .navbar-custom {
     background-color: #322255 !important;
-}
-
-
-@media (max-width: 768px) {
-    .row{
-        display: block;
-    }
 }

@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background-image: url('/img/skins/missing_bg.png');
+    background-position: center center;
     height: 450px;
 }
 
@@ -64,4 +65,21 @@
 .osulink:hover {
     color: #dddfe0!important;
     text-decoration: none;
+}
+
+@media (max-width: 991px) {
+.skins {
+    background: #44336d;
+}
+}
+
+@media (max-width: 768px) {
+    .skins {
+     background: #44336d;
+    height: auto;
+    }
+
+    .row {
+        display: block;
+    }
 }

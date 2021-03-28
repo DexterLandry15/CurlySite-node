@@ -1,5 +1,6 @@
 .authors {
     background: url('../img/home/gm_fork.png');
+    background-position: center center;
     display: flex;
     justify-content: center;
 }
@@ -82,4 +83,14 @@
   justify-content: center;
   flex-direction: row;
   width: 30px;
+}
+
+@media (max-width: 991px) {
+    .row{
+        display: block;
+    }    
+    
+    .authors {
+        background: #44336d;
+    }
 }
