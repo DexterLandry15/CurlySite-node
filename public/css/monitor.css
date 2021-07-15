@@ -1,0 +1,24 @@
+.stats {
+    width: auto;
+    margin: 0 auto;
+    height: 38px;
+}
+
+.stats .mem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats .mem .mem_text{
+    color: #aeaeae;
+    text-align: center;
+    font-family: podkova;
+    font-size: 24px;
+}
+
+.stats .icon {
+    width: 34px;
+    margin-right: 7px;
+    fill: #aeaeae;
+}

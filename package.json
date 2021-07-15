@@ -15,7 +15,9 @@
     "express-handlebars": "^5.2.0",
     "gamedig": "^2.0.24",
     "https": "^1.0.0",
+    "mathjs": "^9.3.0",
     "mongoose": "^5.11.9",
+    "os-utils": "^0.0.14",
     "vk-io": "^4.1.2"
   },
   "devDependencies": {

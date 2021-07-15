@@ -6,13 +6,19 @@
     height: 450px;
 }
 
-.servers span {
-    font-family: Podkova;
-    color: #aeaeae;
-    text-align: center;
-    font-size: 60px;
-    margin: 0 auto;
+.server {
+  font-family: podkova;
+  font-size:30px;
+  color: #aeaeae;
+  height: 180px;
 }
+
+
+
+li{
+  list-style-type: none;  
+}
+
 @media (max-width: 991px) {
 .servers{
     background: #44336d;
