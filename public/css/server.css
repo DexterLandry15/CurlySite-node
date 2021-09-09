@@ -1,26 +1,55 @@
 .servers {
-    display: flex;
-    align-items:center;
-    background: url('../img/server/psx_autumn2001.png');
-    background-position: center center;
-    height: 450px;
+  display: flex;
+  align-items: center;
+  align-content: stretch;
+  background: url("../img/server/psx_autumn2001.png");
+  background-position: center center;
+  height: 450px;
+}
+.monitor {
+  margin-left: 15%;
+  display: grid;
+  grid: auto-flow 30%;
 }
 
-.server {
+.monitor ul {
   font-family: podkova;
-  font-size:30px;
+  font-size: 2.2rem;
   color: #aeaeae;
-  height: 180px;
+  text-align: left;
+  letter-spacing: 0.05em;
+  line-height: 4rem;
 }
 
+.monitor a {
+  color: #aeaeae;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+}
 
+.monitor a:hover {
+  color: #e2e2e2;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px #9c9c9c;
+}
 
-li{
-  list-style-type: none;  
+li {
+  list-style-type: none;
+}
+
+.monitor{
+  width: 280px;
+}
+
+.descr{
+  font-size: 1.7rem;
+  color: #aeaeae;
+  text-align: right;
+  margin: 0 auto;
 }
 
 @media (max-width: 991px) {
-.servers{
+  .servers {
     background: #44336d;
-}
+  }
 }

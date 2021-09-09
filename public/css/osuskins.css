@@ -1,14 +1,6 @@
 
-.skins {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url('/img/skins/missing_bg.png');
-    background-position: center center;
-    height: 450px;
-}
-
 .card {
+    height: 82%!important;
     font-family: Podkova;
     margin: 40px auto;
     position: relative;
@@ -67,7 +59,14 @@
     text-decoration: none;
 }
 
-@media (max-width: 991px) {
+.dev-prev{
+    text-align: center;
+    color: #aeaeae;
+    font-family: Podkova;
+    font-size: 30px;
+    margin: 0 auto;
+}
+/* @media (max-width: 991px) {
 .skins {
     background: #44336d;
 }
@@ -82,4 +81,4 @@
     .row {
         display: block;
     }
-}
+} */
